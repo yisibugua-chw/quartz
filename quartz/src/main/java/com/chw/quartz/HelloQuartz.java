@@ -12,6 +12,7 @@ public class HelloQuartz implements Job {
 		System.out.println("hello quartz! excuting at " + new Date() );
 		System.out.println("aaaa");
 		System.out.println("ssssss");
+		System.out.println("dddddd");
 	}
 
 }
