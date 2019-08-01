@@ -11,6 +11,7 @@ public class HelloQuartz implements Job {
 	public void execute(JobExecutionContext context) throws JobExecutionException {
 		System.out.println("hello quartz! excuting at " + new Date() );
 		System.out.println("aaaa");
+		System.out.println("ssssss");
 	}
 
 }
